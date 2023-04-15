@@ -28,10 +28,12 @@ Administradores poderão deletar e editar publicações.
 
 ## :desktop_computer: Tecnologias e frameworks utilizados
 
-Frontend: VueJS v3.0, Vue-Router e Pinia.
+**Frontend:** 
+VueJS v3.0, Vue-Router e Pinia.
 Axios
 
-Backend: Strapi
+**Backend:**
+Strapi
 
 ## :shipit: Operações implementadas para cada entidade da aplicação
 
