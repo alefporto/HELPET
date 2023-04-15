@@ -11,15 +11,19 @@ Helpet é uma Aplicação Web destinada a facilitar a adoção de animais de rua
 
 ## :people_holding_hands: Papéis ou tipos de usuário da aplicação
 
-Administrador
-Usuário registrado.
-Usuário não registrado.
+<ul>
+    <li>Administrador
+    <li>Usuário registrado.
+    <li>Usuário não registrado.
+</ul>
 
 ## :spiral_calendar: Entidades ou tabelas do sistema
 
-Moderador
-Usuário
-Pet
+<ul>
+    <li>Moderador
+    <li>Usuário
+    <li>Pet
+</ul>
 
 ## :triangular_flag_on_post:	 Principais funcionalidades da aplicação
 
@@ -38,7 +42,6 @@ VueJS. CSS3. HTML5.
 NodeJS. Strapi. JavaScript.
 
 ## :shipit: Operações implementadas para cada entidade da aplicação
-
 
 | Entidade | Criação | Leitura | Atualização | Remoção |
 | --- | --- | --- | --- | --- |
