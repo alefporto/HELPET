@@ -1,48 +1,47 @@
 # :checkered_flag: HELPET
 
-Helpet é uma Aplicação Web destinada a facilitar a adoção de animais de rua e arrecadação de fundos através de doações e venda de produtos de uma maneira simples 
-e rápida.
+Helpet é uma Aplicação Web destinada a facilitar a adoção de animais de rua e arrecadação de fundos através de doações de uma forma fácil e rápida.
 
 ## :technologist: Membros da equipe
 
-548323 |   Wendel Rodrigues Viana  | Engenharia de Software
-548322 | João Álef Porto Bevilaqua | Engenharia de Software
+| João Álef Porto Bevilaqua | 548322 | Engenharia de Software |
+| Wendel Rodrigues Viana    | 548323 | Engenharia de Software |
 
 ## :people_holding_hands: Papéis ou tipos de usuário da aplicação
 
-Usuário não registrado.
-Usuário registrado.
 Administrador
+Usuário registrado.
+Usuário não registrado.
 
 ## :spiral_calendar: Entidades ou tabelas do sistema
 
-Animais
+Moderador
 Usuário
-Comentário
+Pet
 
 ## :triangular_flag_on_post:	 Principais funcionalidades da aplicação
 
-Usuários não registrados poderão, somente, ver os animais e os comentários feitos por usuários registrados.
-Usuários registrados, além do que os não registrados já fazem, poderão postar novos animais e comentários nas postagens de outros.
-Administradores poderão deletar e editar publicações.
+<ul>
+    <li>Moderadores poderão criar, editar e deletar publicações próprias e de outros usuários, além de poderem vizualizar todas as doações feitas.
+    <li>Usuários registrados, poderão publicar e adotar pets, comentar em publicações já existentes e realizar doações.
+    <li>Usuários não registrados poderão, somente, ver os pets e os comentários feitos por usuários registrados.
+</ul>
 
 ## :desktop_computer: Tecnologias e frameworks utilizados
 
 **Frontend:** 
-VueJS v3.0, Vue-Router e Pinia.
-Axios
+VueJS. CSS3. HTML5.
 
 **Backend:**
-Strapi
+NodeJS. Strapi. JavaScript.
 
 ## :shipit: Operações implementadas para cada entidade da aplicação
 
 
-| Entidade| Criação | Leitura | Atualização | Remoção |
+| Entidade | Criação | Leitura | Atualização | Remoção |
 | --- | --- | --- | --- | --- |
-| Animais | X | X | X | X |
-| Usuários | X |  |  |  |
-| Comentários | X | X |  |  |
+| Pet | X | X | X | X |
+| Usuário | X | X | X |  |
 
 > Lembre-se que é necessário implementar o CRUD de pelo menos duas entidades.
 
