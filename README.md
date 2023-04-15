@@ -4,8 +4,10 @@ Helpet é uma Aplicação Web destinada a facilitar a adoção de animais de rua
 
 ## :technologist: Membros da equipe
 
-| João Álef Porto Bevilaqua | 548322 | Engenharia de Software |
-| Wendel Rodrigues Viana    | 548323 | Engenharia de Software |
+<ul>
+    <li>João Álef Porto Bevilaqua | 548322 | Engenharia de Software
+    <li>Wendel Rodrigues Viana    | 548323 | Engenharia de Software
+</ul>
 
 ## :people_holding_hands: Papéis ou tipos de usuário da aplicação
 
