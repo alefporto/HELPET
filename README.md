@@ -30,7 +30,7 @@ Helpet é uma Aplicação Web destinada a facilitar a adoção de animais de rua
 <ul>
     <li>Moderadores poderão criar, editar e deletar publicações próprias e de outros usuários, além de poderem vizualizar todas as doações feitas.
     <li>Usuários registrados, poderão publicar e adotar pets, comentar em publicações já existentes e realizar doações.
-    <li>Usuários não registrados poderão, somente, ver os pets e os comentários feitos por usuários registrados.
+    <li>Usuários não registrados poderão, somente, ver as publicações e comentários feitos por usuários registrados.
 </ul>
 
 ## :desktop_computer: Tecnologias e frameworks utilizados
