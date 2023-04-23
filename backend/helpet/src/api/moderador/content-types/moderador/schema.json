@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "moderadors",
+  "info": {
+    "singularName": "moderador",
+    "pluralName": "moderadors",
+    "displayName": "Moderador",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "nome": {
+      "type": "string"
+    },
+    "senha": {
+      "type": "password"
+    },
+    "admin_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "admin::user"
+    }
+  }
+}
