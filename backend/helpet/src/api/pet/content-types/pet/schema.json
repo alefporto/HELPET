@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pets",
+  "info": {
+    "singularName": "pet",
+    "pluralName": "pets",
+    "displayName": "Pet",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "text"
+    },
+    "contato": {
+      "type": "string"
+    },
+    "foto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "adotado": {
+      "type": "boolean"
+    },
+    "endereco": {
+      "type": "text"
+    }
+  }
+}
