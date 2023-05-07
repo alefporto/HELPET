@@ -37,10 +37,11 @@
       "relation": "oneToMany",
       "target": "api::pet.pet"
     },
-    "users_permissions_user": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "plugin::users-permissions.user"
+    "contato": {
+      "type": "string"
+    },
+    "endereco": {
+      "type": "string"
     }
   }
 }

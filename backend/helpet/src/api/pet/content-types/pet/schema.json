@@ -18,9 +18,6 @@
     "descricao": {
       "type": "text"
     },
-    "contato": {
-      "type": "string"
-    },
     "foto": {
       "type": "media",
       "multiple": false,
@@ -36,7 +33,10 @@
       "type": "boolean"
     },
     "endereco": {
-      "type": "text"
+      "type": "string"
+    },
+    "contato": {
+      "type": "string"
     }
   }
 }
