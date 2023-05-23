@@ -12,25 +12,27 @@ Helpet é uma Aplicação Web destinada a facilitar a adoção de animais de rua
 ## :people_holding_hands: Papéis ou tipos de usuário da aplicação
 
 <ul>
-    <li>Administrador
-    <li>Usuário registrado.
-    <li>Usuário não registrado.
+    <li>Admin (Administrador)
+    <li>Logado (Usuário que fez login)
+    <li>Public (Usuário que não fez login)
 </ul>
 
 ## :spiral_calendar: Entidades ou tabelas do sistema
 
 <ul>
-    <li>Moderador
-    <li>Usuário
+    <li>User
     <li>Pet
+    <li>Anuncio
+    <li>Pedido
+    <li>Feedback
 </ul>
 
-## :triangular_flag_on_post:	 Principais funcionalidades da aplicação
+## :triangular_flag_on_post: Principais funcionalidades da aplicação
 
 <ul>
-    <li>Moderadores poderão criar, editar e deletar publicações próprias e de outros usuários, além de poderem vizualizar todas as doações feitas.
-    <li>Usuários registrados, poderão publicar e adotar pets, comentar em publicações já existentes e realizar doações.
-    <li>Usuários não registrados poderão, somente, ver as publicações e comentários feitos por usuários registrados.
+    <li>Admins poderão, criar, editar e deletar anúncios próprios e deletar anúncios de outros usuários.
+    <li>Usuários logado poderá publicar anúncios, adotar pets, comentar em anúncios já existentes e realizar doações.
+    <li>Usuários não logados, poderão, somente, ver os anúncios existentes e seus comentários.
 </ul>
 
 ## :desktop_computer: Tecnologias e frameworks utilizados
@@ -45,10 +47,11 @@ NodeJS. Strapi. JavaScript.
 
 | Entidade | Criação | Leitura | Atualização | Remoção |
 | --- | --- | --- | --- | --- |
+| User | X | X | X |  |
 | Pet | X | X | X | X |
-| Usuário | X | X | X |  |
-
-> Lembre-se que é necessário implementar o CRUD de pelo menos duas entidades.
+| Anuncio | X | X | X | X |
+| Pedido | X | X | X | X |
+| Feedback | X | X | X | X |
 
 ## :neckbeard: Rotas da API REST utilizadas
 
