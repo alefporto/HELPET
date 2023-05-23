@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "feedbacks",
+  "info": {
+    "singularName": "feedback",
+    "pluralName": "feedbacks",
+    "displayName": "Feedback",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "comentario": {
+      "type": "text",
+      "required": true
+    },
+    "nota": {
+      "type": "integer",
+      "min": 0,
+      "max": 5,
+      "required": true
+    },
+    "anuncio": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::anuncio.anuncio",
+      "inversedBy": "feedback"
+    },
+    "enviado": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
